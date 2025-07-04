@@ -5,7 +5,6 @@ public class ShippableProducts extends Product implements Shippable {
 
     public ShippableProducts(String name, double price, int quantity, double weight) {
         super(name, price, quantity);
-        System.out.println("DEBUG: name in constructor = " + name);
         this.weight = weight;
     }
 
